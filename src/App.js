@@ -2,8 +2,6 @@ import Navbar from './components/NavBar';
 import TravelCard from './components/TravelCard'
 import dataset from "./data"
 
-
-
 function App() {
 
 const travel = dataset.map(item =>
@@ -19,6 +17,7 @@ const travel = dataset.map(item =>
               imageUrl={item.imageUrl}  
           />
           )
+
       })
   return (
     <div className="App">
