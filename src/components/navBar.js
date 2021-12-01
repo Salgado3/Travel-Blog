@@ -1,15 +1,12 @@
-
+import GlobePic from "../images/globe_navbar.png"
 
 
 function Navbar() {
 
     return(
         <div className="navbar">
-            <ul>
-            <li>2020</li>
-            <li>2018</li>
-            <li>2017</li>
-            </ul>
+            <img src={GlobePic} />
+            <h1>My Travels</h1>
 
         </div>
     )
