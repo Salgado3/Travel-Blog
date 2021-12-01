@@ -38,3 +38,40 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
  padding: 1.5% 1.5%; 
  
 }
+
+
+/* Travel Card  */
+
+.travelCard_container{
+ height: 300px;
+  padding: 1% 5%;
+  display: flex;
+  
+}
+
+.travelCard_section{
+  padding: 0% 1%;
+}
+.travel_img{
+  width: 300px;
+  height: 300px;;
+
+}
+
+.travel_title {
+  font-weight: bold;
+  font-size: 48px;
+}
+
+.travel_location {
+  font-size: larger;
+  font-weight: bold;
+}
+
+/* google link */
+.travel_googleMap:link{
+color: darkgrey;
+}
+.travel_googleMap:visited{
+  color: red;
+  }
