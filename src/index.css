@@ -10,7 +10,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: darkcyan;
+  background-color: rgb(221, 230, 230);
 }
 
 code {
@@ -54,7 +54,8 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .travel_img{
   width: 300px;
-  height: 300px;;
+  height: 300px;
+  border-radius: 5%;
 
 }
 
@@ -75,3 +76,12 @@ color: darkgrey;
 .travel_googleMap:visited{
   color: red;
   }
+
+.travel_googleMap:hover{
+  color: blue;
+}
+
+.travel_imgPointer {
+  height: 15px;
+  padding-right: .25%;
+}
