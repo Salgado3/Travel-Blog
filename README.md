@@ -3,4 +3,4 @@
 
 
 
-![app in action](/image/travelBlog.gif)
+![app in action](./image/travelBlog.gif)
