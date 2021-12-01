@@ -47,6 +47,11 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   padding: 1% 1%;
   display: flex;
   margin: 1% 15%;
+  box-shadow: 10px 10px 8px #888888;
+}
+.travelCard_container:hover{
+  opacity: .85;
+  
 }
 
 .travelCard_section{
