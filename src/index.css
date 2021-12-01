@@ -43,30 +43,49 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 /* Travel Card  */
 
 .travelCard_container{
- height: 300px;
-  padding: 1% 5%;
+ height: 350px;
+  padding: 1% 1%;
   display: flex;
-  
+  margin: 1% 15%;
 }
 
 .travelCard_section{
-  padding: 0% 1%;
+  padding: 0% .5%;
+  display: flex;
+  flex-direction: column;
 }
 .travel_img{
   width: 300px;
-  height: 300px;
+  height: 350px;
   border-radius: 5%;
 
 }
 
 .travel_title {
   font-weight: bold;
-  font-size: 48px;
+  font-size: 38px;
+  border: 1px solid blue;
+  order: 1;
 }
 
 .travel_location {
+ 
   font-size: larger;
   font-weight: bold;
+  order: 0;
+}
+.travel_googleMap{
+ padding: 0% 2%;
+  order: 0;
+}
+.travel_startDate_endDate {
+  font-weight: bold;
+  order: 2;
+}
+
+.travel_description {
+  
+  order:3;
 }
 
 /* google link */
