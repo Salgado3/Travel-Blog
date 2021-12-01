@@ -16,3 +16,24 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+/* navbar */
+
+.navbar {
+display: flex;
+border: 2px solid red;
+height: 50%;
+justify-content: center;
+background-color: #F55A5A;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.navbar_img {
+  object-fit: contain;
+ height: 100px;
+ width: 100px;
+ padding: 1.5% 1.5%; 
+ 
+}
