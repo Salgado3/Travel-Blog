@@ -3,4 +3,4 @@
 
 
 
-![gif of front-end](<img src="./image/travelBlog.gif"/>)
+![app in action](/image/travelBlog.gif)
