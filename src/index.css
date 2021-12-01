@@ -69,7 +69,7 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 .travel_title {
   font-weight: bold;
   font-size: 38px;
-  border: 1px solid blue;
+  text-shadow: 2px 2px #888888;
   order: 1;
 }
 
