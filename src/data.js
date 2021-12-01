@@ -34,7 +34,7 @@ export default [
         googleMapsUrl: "https://www.google.com/maps/place/Oaxaca,+Mexico/@17.0813771,-96.7707512,13z/data=!3m1!4b1!4m5!3m4!1s0x85c72249df26d9b1:0xac88a77657dffc3b!8m2!3d17.0731842!4d-96.7265889",
         startDate: "1 Nov, 2019",
         endDate: "11 Nov, 2019",
-        description: "Mount Fuji is the tallest mountain in Japan, standing at 3,776 meters (12,380 feet). Mount Fuji is the single most popular tourist site in Japan, for both Japanese and foreign tourists.",
+        description: "The city of Oaxaca de Juárez, or Oaxaca City or simply Oaxaca, is the capital and largest city of the eponymous Mexican state Oaxaca. It is the municipal seat for the surrounding Municipality of Oaxaca",
         imageUrl: "https://images.unsplash.com/photo-1601289127585-b9ce67af6a33?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fG9heGFjYXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60"
     }
 ]
