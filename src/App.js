@@ -8,6 +8,7 @@ const travel = dataset.map(item =>
   {
       return (
           <TravelCard
+              key = {item.title}
               title={item.title}
               location={item.location}
               googleMapsUrl={item.googleMapsUrl}
