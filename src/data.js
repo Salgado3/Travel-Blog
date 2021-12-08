@@ -36,5 +36,23 @@ export default [
         endDate: "11 Nov, 2019",
         description: "The city of Oaxaca de Juárez, or Oaxaca City or simply Oaxaca, is the capital and largest city of the eponymous Mexican state Oaxaca. It is the municipal seat for the surrounding Municipality of Oaxaca",
         imageUrl: "https://images.unsplash.com/photo-1601289127585-b9ce67af6a33?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fG9heGFjYXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60"
+    },
+    {
+        title: "Merida",
+        location: "Merida, Mx",
+        googleMapsUrl: "https://www.google.com/maps/place/M%C3%A9rida,+Yucatan,+Mexico/@20.9802115,-89.702959,12z/data=!3m1!4b1!4m5!3m4!1s0x8f56715cab450d17:0x5dfc155715abeb09!8m2!3d20.9673702!4d-89.5925857",
+        startDate: "12 Nov, 2019",
+        endDate: "19 Nov, 2019",
+        description: "Mérida, the vibrant capital of the Mexican state of Yucatán, has a rich Mayan and colonial heritage. The city’s focal point is Plaza de la Independencia, bordered by the fortresslike Mérida Cathedral and white limestone Iglesia de la Tercera Orden, both colonial-era churches built using relics from ancient Mayan temples. The Casa de Montejo, a 16th-century mansion, is a landmark of colonial plateresque architecture. ",
+        imageUrl: "https://images.unsplash.com/photo-1619571089590-a9c529c4a38b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=730&q=80"
+    },
+    {
+        title: "Bernal",
+        location: "Queretaro, Mx",
+        googleMapsUrl: "https://www.google.com/maps/place/76680+Bernal,+Qro.,+Mexico/data=!4m2!3m1!1s0x85d37edfe530e957:0xaa1f4884f962782c?sa=X&ved=2ahUKEwipjrTWzNT0AhVLjIkEHRK2CbwQ8gF6BAhEEAE",
+        startDate: "1 Nov, 2018",
+        endDate: "3 Nov, 2018",
+        description: "San Sebastián Bernal better known as Bernal, is a colonial village in the Mexican state of Querétaro. It was founded in 1642 by Spanish soldier Alonso Cabrera. Bernal is located 40 minutes by road from state capital Santiago de Querétaro and two and a half hours from Mexico City.",
+        imageUrl: "https://imagenescityexpress.scdn6.secure.raxcdn.com/sites/default/files/2018-05/portada-pen%CC%83a-bernal.jpg"
     }
 ]
