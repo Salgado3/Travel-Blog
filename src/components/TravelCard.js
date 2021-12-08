@@ -3,7 +3,7 @@ import mapPointer from "../images/mapPointer.png"
 
 
 function TravelCard(props) {
-   
+
 return(
     <div className="travelCard_container">
 

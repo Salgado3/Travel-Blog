@@ -25,6 +25,7 @@ code {
 display: flex;
 border-bottom: 1px solid black;
 height: 50%;
+width: 100%;
 justify-content: center;
 background-color: #F55A5A;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -75,8 +76,6 @@ height: 25%;
   width: 300px;
   height: 300px;
   border-radius: 5%;
-  
-  
 }
 
 .travel_title {
@@ -103,6 +102,9 @@ height: 25%;
 
 .travel_description {
   text-align: justify;
+  overflow:scroll;
+  overflow-x:hidden;
+  overflow-y: auto;
   order:3;
 }
 
@@ -121,4 +123,65 @@ color: darkgrey;
 .travel_imgPointer {
   height: 15px;
   padding-right: .25%;
+}
+
+/* mobile design */
+
+@media screen and (max-width: 800px) {
+
+.travelCard_container{
+  height: 100%;
+  margin: 2% 15%;
+   padding: 1% 1%;
+   display: flex;
+   flex-direction: column;
+   margin: 3% 3%;
+   background-color: rgb(231, 220, 204);
+   box-shadow: 10px 10px 8px #747070;
+ }
+ .travelCard_container:hover{
+   opacity: .8;
+    
+ }
+ 
+ .travelCard_section{
+   padding: .5%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+ }
+ .travel_img{
+   width: 50%;
+   height: 200px;
+   border-radius: 5%;
+ }
+ 
+ .travel_title {
+   font-weight: bold;
+   font-size: 24px;
+   text-shadow: 2px 2px #888888;
+   order: 0;
+ }
+ 
+ .travel_location {
+  
+   font-size: larger;
+   font-weight: bold;
+   order: 0;
+ }
+ .travel_googleMap{
+  padding: 0% 2%;
+  text-align: center;
+   order: 1;
+ }
+ .travel_startDate_endDate {
+   font-weight: bold;
+   order: 2;
+ }
+ 
+ .travel_description {
+  overflow:scroll;
+  overflow-x:hidden;
+  overflow-y: auto;
+ }
 }
