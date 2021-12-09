@@ -23,20 +23,20 @@ code {
 
 .navbar {
 display: flex;
-border-bottom: 1px solid black;
+border-bottom: 2px solid black;
 height: 50%;
 width: 100%;
 justify-content: center;
-background-color: #F55A5A;
+background-color: #A5CCB2;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
+/* font-size: 28px; */
 }
 
 .navbar_img {
 object-fit: contain;
- height: 100px;
- width: 100px;
- padding: 1.5% 1.5%; 
+ height: 90px;
+ width: 90px;
+ padding: 1% 1.5%; 
  
 }
 .navbar_img_gitHub {
@@ -68,7 +68,7 @@ height: 25%;
 }
 
 .travelCard_section{
-  padding: .5%;
+  padding: 0% .5%;
   display: flex;
   flex-direction: column;
 }
@@ -80,31 +80,35 @@ height: 25%;
 
 .travel_title {
   font-weight: bold;
+  height: 5%;
   font-size: 38px;
   text-shadow: 2px 2px #888888;
-  order: 1;
+  order: 0;
+  text-align: center;
 }
 
 .travel_location {
- 
   font-size: larger;
   font-weight: bold;
-  order: 0;
+  order: 1;
+  text-align: center;
 }
 .travel_googleMap{
- padding: 0% 2%;
-  order: 0;
+ padding: 0% 1%;
+  order: 1;
+
 }
 .travel_startDate_endDate {
   font-weight: bold;
+  text-align: center;
   order: 2;
 }
 
-.travel_description {
+.travel_description_container {
+  padding: 0% 2.5% 0% 0%;
   text-align: justify;
-  overflow:scroll;
-  overflow-x:hidden;
-  overflow-y: auto;
+  /* overflow:scroll;
+  overflow-x:hidden; */
   order:3;
 }
 

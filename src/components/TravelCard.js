@@ -18,7 +18,9 @@ return(
             {props.location}
         <a  className="travel_googleMap"href={`${props.googleMapsUrl}`}>View on Google Maps</a></h3>
         <span className="travel_startDate_endDate">{props.startDate} - {props.endDate}</span>
+        <div className="travel_description_container">
         <p className="travel_description">{props.description}</p>
+        </div>
     </section>
 
     </div>
