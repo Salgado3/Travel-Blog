@@ -68,9 +68,13 @@ opacity: .8;
   margin: 2% 15%;
   background-color: rgb(231, 220, 204);
   box-shadow: 10px 10px 8px #747070;
+  transition:linear .3s;
 }
 .travelCard_container:hover{
+  height: 355px;
+  width: 70.15%;
   opacity: 1; 
+  transition: linear .3s;
 }
 
 .travelCard_section{
@@ -82,7 +86,7 @@ opacity: .8;
   width: 300px;
   height: 300px;
   border-radius: 5%;
-  transition:linear .3s;
+  transition:linear .2s;
 }
 .travel_img:hover{
   width: 305px;
@@ -146,66 +150,70 @@ color: darkgrey;
 
 @media screen and (max-width: 811px) {
 
-.travelCard_container{
-  height: 100%;
-  margin: 2% 15%;
-   padding: 1% 1%;
-   display: flex;
-   flex-direction: column;
-   margin: 4% 3%;
-   background-color: rgb(231, 220, 204);
-   box-shadow: 10px 10px 8px #747070;
-   opacity: .85;
- }
- .travelCard_container:hover{
-  opacity: 1;
-    
- }
- 
- .travelCard_section{
-   padding: .5%;
-   display: flex;
-   flex-direction: column;
-   align-items: center;
- }
- .travel_img{
-   width: 80%;
-   height: 275px;
-   border-radius: 5%;
-   transition: linear .2s;
- }
- .travel_img:hover{
-  width: 82%;
-  height: 280px;
-  border-radius: 5%;
-  transition: linear .2s;
-}
- 
- .travel_title {
-   font-weight: bold;
-   font-size: 30px;
-   text-shadow: 2px 2px #888888;
-   order: 0;
- }
- 
- .travel_location {
-   font-size: 16px;
-   font-weight: bold;
-   order: 0;
- }
- .travel_googleMap{
-  padding: 0% 2%;
-  text-align: center;
-   order: 1;
- }
- .travel_startDate_endDate {
-   font-weight: bold;
-   order: 2;
- }
- 
- .travel_description {
-  overflow:scroll;
-  overflow-x:hidden;
-  overflow-y: auto;
- }
-}
+  .travelCard_container{
+    height: 100%;
+    margin: 2% 15%;
+     padding: 1% 1%;
+     display: flex;
+     flex-direction: column;
+     margin: 4% 3%;
+     background-color: rgb(231, 220, 204);
+     box-shadow: 10px 10px 8px #747070;
+     opacity: .85;
+     transition: linear .3s;
+   }
+   .travelCard_container:hover{
+    height: 100%;
+  width: 94.25%;
+  opacity: 1; 
+  transition: linear .3s;
+      
+   }
+   
+   .travelCard_section{
+     padding: .5%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+   }
+   .travel_img{
+     width: 80%;
+     height: 275px;
+     border-radius: 5%;
+     transition: linear .2s;
+   }
+   .travel_img:hover{
+    width: 81%;
+    height: 280px;
+    border-radius: 5%;
+    transition: linear .2s;
+  }
+   
+   .travel_title {
+     font-weight: bold;
+     font-size: 30px;
+     text-shadow: 2px 2px #888888;
+     order: 0;
+   }
+   
+   .travel_location {
+     font-size: 16px;
+     font-weight: bold;
+     order: 0;
+   }
+   .travel_googleMap{
+    padding: 0% 2%;
+    text-align: center;
+     order: 1;
+   }
+   .travel_startDate_endDate {
+     font-weight: bold;
+     order: 2;
+   }
+   
+   .travel_description {
+    overflow:scroll;
+    overflow-x:hidden;
+    overflow-y: auto;
+   }
+  }
