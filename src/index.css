@@ -10,7 +10,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgb(221, 230, 230);
+  background-color: rgb(198, 221, 221);
 }
 
 code {
@@ -68,13 +68,13 @@ opacity: .8;
   margin: 2% 15%;
   background-color: rgb(231, 220, 204);
   box-shadow: 10px 10px 8px #747070;
-  transition:linear .3s;
+  transition: transform .3s;
 }
 .travelCard_container:hover{
-  height: 355px;
-  width: 70.15%;
+  /* height: 355px;
+  width: 70.15%; */
   opacity: 1; 
-  transition: linear .3s;
+  transform: scale(1.025);
 }
 
 .travelCard_section{
@@ -88,12 +88,12 @@ opacity: .8;
   border-radius: 5%;
   transition:linear .2s;
 }
-.travel_img:hover{
+/* .travel_img:hover{
   width: 305px;
   height: 305px;
   border-radius: 5%;
   transition: linear .2s;
-}
+} */
 
 .travel_title {
   font-weight: bold;
@@ -160,18 +160,19 @@ color: darkgrey;
      background-color: rgb(231, 220, 204);
      box-shadow: 10px 10px 8px #747070;
      opacity: .85;
-     transition: linear .3s;
+     transition: transform .3s;
    }
    .travelCard_container:hover{
     height: 100%;
   width: 94.25%;
   opacity: 1; 
-  transition: linear .3s;
+  transform: scale(1.0125);
       
    }
    
    .travelCard_section{
      padding: .5%;
+     margin-bottom: 5%;
      display: flex;
      flex-direction: column;
      align-items: center;
@@ -182,12 +183,12 @@ color: darkgrey;
      border-radius: 5%;
      transition: linear .2s;
    }
-   .travel_img:hover{
+   /* .travel_img:hover{
     width: 81%;
     height: 280px;
     border-radius: 5%;
     transition: linear .2s;
-  }
+  } */
    
    .travel_title {
      font-weight: bold;
