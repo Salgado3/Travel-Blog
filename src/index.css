@@ -46,14 +46,18 @@ object-fit: contain;
  
 }
 .navbar_img_gitHub img {
+  background: rgb(29, 28, 28);
+  border-radius: 50%;
 margin: 20% 0% 0% 10%;
 height: 30%;
 opacity: .8;
+transition: .5s;
 }
 .navbar_img_gitHub img:hover {
   opacity: 1;
  background-color: rgb(84, 188, 223);
  border-radius: 50%;
+ 
   }
 
 
@@ -130,15 +134,19 @@ opacity: .8;
 }
 
 /* google link */
+.travel_googleMap {
+  transition: .5s;
+}
 .travel_googleMap:link{
-color: darkgrey;
+color: rgb(84, 188, 223);;
 }
 .travel_googleMap:visited{
-  color: red;
+  color: #5fa777;
   }
 
 .travel_googleMap:hover{
-  color: blue;
+  color: rgb(84, 188, 223);
+  
 }
 
 .travel_imgPointer {
